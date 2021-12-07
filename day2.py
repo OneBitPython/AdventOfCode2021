@@ -12,4 +12,4 @@ for line in open("inp2.txt"):
     elif one == "up":
         aim-=int(two)
         
-print(abs(x*y))
+print("ans :",abs(x*y))
