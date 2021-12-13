@@ -9,7 +9,11 @@ for line in open("C:\\Users\\anant\\PythonProjects\\AdventOfCode\\day12\\inp12.t
 queue = [("start",set(["start"]),False)]
 ans = 0
 while queue:
+<<<<<<< HEAD
     pos,small_caves,mode = queue.pop()
+=======
+    pos,small_caves,mode = queue.pop(0)
+>>>>>>> e490694897044bf3e6cfbaee9b01315a7cfb0f27
     if pos == 'end':
         ans+=1
     else:
